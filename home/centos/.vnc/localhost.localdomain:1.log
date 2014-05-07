@@ -1,0 +1,88 @@
+
+Xvnc TigerVNC 1.1.0 - built Feb  4 2014 05:21:35
+Copyright (C) 1999-2011 TigerVNC Team and many others (see README.txt)
+See http://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 11300000, The X.Org Foundation
+
+Initializing built-in extension Generic Event Extension
+Initializing built-in extension SHAPE
+Initializing built-in extension MIT-SHM
+Initializing built-in extension XInputExtension
+Initializing built-in extension XTEST
+Initializing built-in extension BIG-REQUESTS
+Initializing built-in extension SYNC
+Initializing built-in extension XKEYBOARD
+Initializing built-in extension XC-MISC
+Initializing built-in extension XFIXES
+Initializing built-in extension RENDER
+Initializing built-in extension RANDR
+Initializing built-in extension DAMAGE
+Initializing built-in extension MIT-SCREEN-SAVER
+Initializing built-in extension DOUBLE-BUFFER
+Initializing built-in extension RECORD
+Initializing built-in extension DPMS
+Initializing built-in extension X-Resource
+Initializing built-in extension XVideo
+Initializing built-in extension XVideo-MotionCompensation
+Initializing built-in extension VNC
+Initializing built-in extension GLX
+
+Wed May  7 04:27:43 2014
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+
+Wed May  7 04:27:45 2014
+ Connections: accepted: 192.168.1.200::60102
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+/usr/bin/startxfce4: X server already running on display :1
+
+(xfwm4:2599): xfwm4-WARNING **: The display does not support the XComposite extension.
+
+(xfwm4:2599): xfwm4-WARNING **: Compositing manager disabled.
+
+(xfwm4:2599): GLib-CRITICAL **: g_str_has_prefix: assertion `prefix != NULL' failed
+xfdesktop[2605]: starting up
+
+** (polkit-gnome-authentication-agent-1:2612): WARNING **: Error connecting to bus: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+
+process 2612: arguments to dbus_connection_get_data() were incorrect, assertion "connection != NULL" failed in file dbus-connection.c line 5804.
+This is normally a bug in some application using the D-Bus library.
+  D-Bus not built with -rdynamic so unable to print a backtrace
+
+** (polkit-gnome-authentication-agent-1:2616): WARNING **: Error connecting to bus: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+
+process 2616: arguments to dbus_connection_get_data() were incorrect, assertion "connection != NULL" failed in file dbus-connection.c line 5804.
+This is normally a bug in some application using the D-Bus library.
+  D-Bus not built with -rdynamic so unable to print a backtrace
+
+(xfwm4:2599): xfwm4-WARNING **: The property '/general/double_click_distance' of type int is not supported
+
+(xfwm4:2599): Pango-WARNING **: failed to choose a font, expect ugly output. engine-type='PangoRenderFc', script='latin'
+
+(xfdesktop:2605): Pango-WARNING **: failed to choose a font, expect ugly output. engine-type='PangoRenderFc', script='latin'
+
+(xfdesktop:2605): Pango-WARNING **: failed to choose a font, expect ugly output. engine-type='PangoRenderFc', script='common'
+
+(xfce4-settings-helper:2620): xfce4-settings-helper-WARNING **: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
+
+(xfce4-panel:2601): Pango-WARNING **: failed to choose a font, expect ugly output. engine-type='PangoRenderFc', script='latin'
+
+(xfce4-panel:2601): Pango-WARNING **: failed to choose a font, expect ugly output. engine-type='PangoRenderFc', script='common'
+
+** (nm-applet:2618): WARNING **: <WARN>  bus_init(): Could not get the system bus.  Make sure the message bus daemon is running!  Message: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+
+
+** (nm-applet:2618): CRITICAL **: nm_remote_settings_system_new: assertion `bus != NULL' failed
+
+** (nm-applet:2618): CRITICAL **: nm_settings_service_export_with_capabilities: assertion `priv->bus != NULL' failed
+
+** (nm-applet:2618): CRITICAL **: dbus_g_proxy_call: assertion `DBUS_IS_G_PROXY (proxy)' failed
+
+** (nm-applet:2618): WARNING **: <WARN>  request_name(): Could not acquire the NetworkManagerUserSettings service.
+  Error: (-1) (unknown)
+
+
+Wed May  7 04:27:49 2014
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888

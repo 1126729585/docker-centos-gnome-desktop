@@ -1,0 +1,126 @@
+
+Xvnc TigerVNC 1.1.0 - built Feb  4 2014 05:21:35
+Copyright (C) 1999-2011 TigerVNC Team and many others (see README.txt)
+See http://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 11300000, The X.Org Foundation
+
+Initializing built-in extension Generic Event Extension
+Initializing built-in extension SHAPE
+Initializing built-in extension MIT-SHM
+Initializing built-in extension XInputExtension
+Initializing built-in extension XTEST
+Initializing built-in extension BIG-REQUESTS
+Initializing built-in extension SYNC
+Initializing built-in extension XKEYBOARD
+Initializing built-in extension XC-MISC
+Initializing built-in extension XFIXES
+Initializing built-in extension RENDER
+Initializing built-in extension RANDR
+Initializing built-in extension DAMAGE
+Initializing built-in extension MIT-SCREEN-SAVER
+Initializing built-in extension DOUBLE-BUFFER
+Initializing built-in extension RECORD
+Initializing built-in extension DPMS
+Initializing built-in extension X-Resource
+Initializing built-in extension XVideo
+Initializing built-in extension XVideo-MotionCompensation
+Initializing built-in extension VNC
+Initializing built-in extension GLX
+
+Wed May  7 04:18:53 2014
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5900
+ vncext:      created VNC server for screen 0
+gnome-session[1585]: devkit-power-gobject-WARNING: Couldn't connect to system bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+gnome-session[1585]: WARNING: Could not connect to ConsoleKit: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+gnome-session[1585]: WARNING: Could not connect to ConsoleKit: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+gnome-session[1585]: WARNING: Unable to find provider 'gnome-panel' of required component 'panel'
+gnome-session[1585]: WARNING: Unable to find provider 'nautilus' of required component 'filemanager'
+GNOME_KEYRING_SOCKET=/tmp/keyring-lX0EbD/socket
+SSH_AUTH_SOCK=/tmp/keyring-lX0EbD/socket.ssh
+GNOME_KEYRING_PID=1613
+
+** (polkit-gnome-authentication-agent-1:1624): WARNING **: Error connecting to bus: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+
+process 1624: arguments to dbus_connection_get_data() were incorrect, assertion "connection != NULL" failed in file dbus-connection.c line 5804.
+This is normally a bug in some application using the D-Bus library.
+  D-Bus not built with -rdynamic so unable to print a backtrace
+Window manager warning: Log level 16: failed to choose a font, expect ugly output. engine-type='PangoRenderFc', script='latin'
+Failed to play sound: Not available
+
+** (nm-applet:1629): WARNING **: <WARN>  bus_init(): Could not get the system bus.  Make sure the message bus daemon is running!  Message: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+
+
+** (nm-applet:1629): CRITICAL **: nm_remote_settings_system_new: assertion `bus != NULL' failed
+
+** (nm-applet:1629): CRITICAL **: nm_settings_service_export_with_capabilities: assertion `priv->bus != NULL' failed
+
+** (nm-applet:1629): CRITICAL **: dbus_g_proxy_call: assertion `DBUS_IS_G_PROXY (proxy)' failed
+
+** (nm-applet:1629): WARNING **: <WARN>  request_name(): Could not acquire the NetworkManagerUserSettings service.
+  Error: (-1) (unknown)
+
+
+MCS->Xfconf settings migration complete
+
+
+** (gnome-settings-daemon:1614): WARNING **: Connection failed, reconnecting...
+** Message: NumLock remembering disabled because hostname is set to "localhost"
+
+** (gnome-settings-daemon:1614): WARNING **: Connection failed, reconnecting...
+
+** (gnome-settings-daemon:1614): WARNING **: Connection failed, reconnecting...
+
+** (gnome-settings-daemon:1614): WARNING **: Connection failed, reconnecting...
+
+** (gnome-settings-daemon:1614): WARNING **: Connection failed, reconnecting...
+
+** (gnome-settings-daemon:1614): WARNING **: Connection failed, reconnecting...
+
+** (gnome-settings-daemon:1614): WARNING **: Connection failed, reconnecting...
+
+** (gnome-settings-daemon:1614): WARNING **: Connection failed, reconnecting...
+
+** (gnome-settings-daemon:1614): WARNING **: Connection failed, reconnecting...
+
+** (gnome-settings-daemon:1614): WARNING **: Connection failed, reconnecting...
+
+** (gnome-settings-daemon:1614): WARNING **: Connection failed, reconnecting...
+
+** (gnome-settings-daemon:1614): WARNING **: Connection failed, reconnecting...
+
+** (gnome-settings-daemon:1614): WARNING **: Connection failed, reconnecting...
+Warning! /home/centos/.Xauthority-l refers to a file with more than one hard link, not fixing hard links.
+Warning! /home/centos/.Xauthority refers to a file with more than one hard link, not fixing hard links.
+
+** (gnome-settings-daemon:1614): WARNING **: Connection failed, reconnecting...
+(null) get context on /home/centos/.ICEauthority-l failed: 'No such file or directory'
+
+** (gnome-settings-daemon:1614): WARNING **: Connection failed, reconnecting...
+
+** (gnome-settings-daemon:1614): WARNING **: Connection failed, reconnecting...
+
+** (gnome-settings-daemon:1614): WARNING **: Connection failed, reconnecting...
+
+** (gnome-settings-daemon:1614): WARNING **: Connection failed, reconnecting...
+
+** (gnome-settings-daemon:1614): WARNING **: Connection failed, reconnecting...
+
+** (gnome-settings-daemon:1614): WARNING **: Connection failed, reconnecting...
+
+** (gnome-settings-daemon:1614): WARNING **: Connection failed, reconnecting...
+
+** (gnome-settings-daemon:1614): WARNING **: Connection failed, reconnecting...
+
+** (gnome-settings-daemon:1614): WARNING **: Connection failed, reconnecting...
+
+** (gnome-settings-daemon:1614): WARNING **: Connection failed, reconnecting...
+
+** (gnome-settings-daemon:1614): WARNING **: Connection failed, reconnecting...
+
+** (gnome-settings-daemon:1614): WARNING **: Connection failed, reconnecting...
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 141 requests (141 known processed) with 0 events remaining.
+gnome-session: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+gnome-settings-daemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+Window manager warning: Fatal IO error 11 (Resource temporarily unavailable) on display ':0'.

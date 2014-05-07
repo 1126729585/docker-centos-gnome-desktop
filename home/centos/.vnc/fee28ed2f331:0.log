@@ -1,0 +1,150 @@
+_XSERVTransmkdir: ERROR: euid != 0,directory /tmp/.X11-unix will not be created.
+
+Xvnc TigerVNC 1.1.0 - built Feb  4 2014 05:21:35
+Copyright (C) 1999-2011 TigerVNC Team and many others (see README.txt)
+See http://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 11300000, The X.Org Foundation
+
+Initializing built-in extension Generic Event Extension
+Initializing built-in extension SHAPE
+Initializing built-in extension MIT-SHM
+Initializing built-in extension XInputExtension
+Initializing built-in extension XTEST
+Initializing built-in extension BIG-REQUESTS
+Initializing built-in extension SYNC
+Initializing built-in extension XKEYBOARD
+Initializing built-in extension XC-MISC
+Initializing built-in extension XFIXES
+Initializing built-in extension RENDER
+Initializing built-in extension RANDR
+Initializing built-in extension DAMAGE
+Initializing built-in extension MIT-SCREEN-SAVER
+Initializing built-in extension DOUBLE-BUFFER
+Initializing built-in extension RECORD
+Initializing built-in extension DPMS
+Initializing built-in extension X-Resource
+Initializing built-in extension XVideo
+Initializing built-in extension XVideo-MotionCompensation
+Initializing built-in extension VNC
+Initializing built-in extension GLX
+
+Wed May  7 08:05:53 2014
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5900
+ vncext:      created VNC server for screen 0
+/usr/bin/startxfce4: X server already running on display :0
+gpg-agent[93]: directory `/home/centos/.gnupg' created
+gpg-agent[93]: directory `/home/centos/.gnupg/private-keys-v1.d' created
+gpg-agent[98]: gpg-agent (GnuPG) 2.0.14 started
+_IceTransmkdir: ERROR: euid != 0,directory /tmp/.ICE-unix will not be created.
+
+(xfce4-session:108): GdkPixbuf-CRITICAL **: IA__gdk_pixbuf_new_from_file: assertion `filename != NULL' failed
+No such file or directory
+
+(xfwm4:113): xfwm4-WARNING **: The display does not support the XComposite extension.
+
+(xfwm4:113): xfwm4-WARNING **: Compositing manager disabled.
+
+(xfwm4:113): GLib-CRITICAL **: g_str_has_prefix: assertion `prefix != NULL' failed
+
+** (polkit-gnome-authentication-agent-1:125): WARNING **: Error connecting to bus: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+
+process 125: arguments to dbus_connection_get_data() were incorrect, assertion "connection != NULL" failed in file dbus-connection.c line 5804.
+This is normally a bug in some application using the D-Bus library.
+  D-Bus not built with -rdynamic so unable to print a backtrace
+xfdesktop[119]: starting up
+
+** (polkit-gnome-authentication-agent-1:127): WARNING **: Error connecting to bus: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+
+process 127: arguments to dbus_connection_get_data() were incorrect, assertion "connection != NULL" failed in file dbus-connection.c line 5804.
+This is normally a bug in some application using the D-Bus library.
+  D-Bus not built with -rdynamic so unable to print a backtrace
+
+(xfce4-settings-helper:133): GLib-CRITICAL **: g_str_has_prefix: assertion `prefix != NULL' failed
+
+** (nm-applet:131): WARNING **: <WARN>  bus_init(): Could not get the system bus.  Make sure the message bus daemon is running!  Message: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+
+
+** (nm-applet:131): CRITICAL **: nm_remote_settings_system_new: assertion `bus != NULL' failed
+
+** (nm-applet:131): CRITICAL **: nm_settings_service_export_with_capabilities: assertion `priv->bus != NULL' failed
+
+** (nm-applet:131): CRITICAL **: dbus_g_proxy_call: assertion `DBUS_IS_G_PROXY (proxy)' failed
+
+** (nm-applet:131): WARNING **: <WARN>  request_name(): Could not acquire the NetworkManagerUserSettings service.
+  Error: (-1) (unknown)
+
+
+(xfwm4:113): xfwm4-WARNING **: The property '/general/double_click_distance' of type int is not supported
+
+(xfwm4:113): GLib-GObject-WARNING **: gvalue.c:184: cannot initialize GValue with type `gint', the value has already been initialized as `gint'
+
+(xfwm4:113): GLib-GObject-WARNING **: gvalue.c:184: cannot initialize GValue with type `gint', the value has already been initialized as `gint'
+
+(xfwm4:113): GLib-GObject-WARNING **: gvalue.c:184: cannot initialize GValue with type `gint', the value has already been initialized as `gint'
+
+(xfwm4:113): GLib-GObject-WARNING **: gvalue.c:184: cannot initialize GValue with type `gint', the value has already been initialized as `gint'
+
+(xfwm4:113): GLib-GObject-WARNING **: gvalue.c:184: cannot initialize GValue with type `gint', the value has already been initialized as `gint'
+
+(xfwm4:113): GLib-GObject-WARNING **: gvalue.c:184: cannot initialize GValue with type `gint', the value has already been initialized as `gint'
+
+(xfwm4:113): GLib-GObject-WARNING **: gvalue.c:184: cannot initialize GValue with type `gint', the value has already been initialized as `gint'
+
+(xfwm4:113): GLib-GObject-WARNING **: gvalue.c:184: cannot initialize GValue with type `gint', the value has already been initialized as `gint'
+
+(xfwm4:113): GLib-GObject-WARNING **: gvalue.c:184: cannot initialize GValue with type `gint', the value has already been initialized as `gint'
+
+(xfwm4:113): GLib-GObject-WARNING **: gvalue.c:184: cannot initialize GValue with type `gint', the value has already been initialized as `gint'
+
+(xfwm4:113): GLib-GObject-WARNING **: gvalue.c:184: cannot initialize GValue with type `gint', the value has already been initialized as `gint'
+
+(xfwm4:113): GLib-GObject-WARNING **: gvalue.c:184: cannot initialize GValue with type `gint', the value has already been initialized as `gint'
+
+(xfwm4:113): GLib-GObject-WARNING **: gvalue.c:184: cannot initialize GValue with type `gint', the value has already been initialized as `gint'
+
+(xfwm4:113): GLib-GObject-WARNING **: gvalue.c:184: cannot initialize GValue with type `gint', the value has already been initialized as `gint'
+
+(xfdesktop:119): libxfce4util-CRITICAL **: Unable to open file /home/centos/.config/xfce4/desktop/icons.screen0.rc.new.119.tmp for writing: Permission denied
+
+(xfdesktop:119): libxfce4util-CRITICAL **: Unable to open file /home/centos/.config/xfce4/desktop/icons.screen0.rc.new.119.tmp for writing: Permission denied
+
+** (xfdesktop:119): WARNING **: Unable to rename temp file to /home/centos/.config/xfce4/desktop/icons.screen0.rc: Permission denied
+
+Wed May  7 08:06:34 2014
+ Connections: accepted: 127.0.0.1::58022
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 127.0.0.1::58022 (Authentication failure)
+
+Wed May  7 08:06:45 2014
+ Connections: accepted: 127.0.0.1::58064
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+(xfce4-panel:115): liblauncher-WARNING **: Failed to create duplicate of desktop file "/usr/share/applications/exo-terminal-emulator.desktop" to "/home/centos/.config/xfce4/panel/launcher-9/13994644071.desktop": Error opening file '/home/centos/.config/xfce4/panel/launcher-9/13994644071.desktop': Permission denied
+
+(xfce4-panel:115): liblauncher-WARNING **: Failed to create duplicate of desktop file "/usr/share/applications/exo-file-manager.desktop" to "/home/centos/.config/xfce4/panel/launcher-10/13994644072.desktop": Error opening file '/home/centos/.config/xfce4/panel/launcher-10/13994644072.desktop': Permission denied
+
+(xfce4-panel:115): liblauncher-WARNING **: Failed to create duplicate of desktop file "/usr/share/applications/exo-web-browser.desktop" to "/home/centos/.config/xfce4/panel/launcher-11/13994644073.desktop": Error opening file '/home/centos/.config/xfce4/panel/launcher-11/13994644073.desktop': Permission denied
+
+(xfce4-panel:115): liblauncher-WARNING **: Failed to create duplicate of desktop file "/usr/share/applications/xfce4-appfinder.desktop" to "/home/centos/.config/xfce4/panel/launcher-12/13994644074.desktop": Error opening file '/home/centos/.config/xfce4/panel/launcher-12/13994644074.desktop': Permission denied
+
+(xfce4-panel:115): liblauncher-WARNING **: Failed to create duplicate of desktop file "/usr/share/applications/exo-terminal-emulator.desktop" to "/home/centos/.config/xfce4/panel/launcher-9/13994644075.desktop": Error opening file '/home/centos/.config/xfce4/panel/launcher-9/13994644075.desktop': Permission denied
+
+(xfce4-panel:115): liblauncher-WARNING **: Failed to create duplicate of desktop file "/usr/share/applications/exo-file-manager.desktop" to "/home/centos/.config/xfce4/panel/launcher-10/13994644076.desktop": Error opening file '/home/centos/.config/xfce4/panel/launcher-10/13994644076.desktop': Permission denied
+
+(xfce4-panel:115): liblauncher-WARNING **: Failed to create duplicate of desktop file "/usr/share/applications/exo-web-browser.desktop" to "/home/centos/.config/xfce4/panel/launcher-11/13994644077.desktop": Error opening file '/home/centos/.config/xfce4/panel/launcher-11/13994644077.desktop': Permission denied
+
+(xfce4-panel:115): liblauncher-WARNING **: Failed to create duplicate of desktop file "/usr/share/applications/xfce4-appfinder.desktop" to "/home/centos/.config/xfce4/panel/launcher-12/13994644078.desktop": Error opening file '/home/centos/.config/xfce4/panel/launcher-12/13994644078.desktop': Permission denied
+
+(xfce4-panel:115): liblauncher-WARNING **: Failed to create duplicate of desktop file "/usr/share/applications/exo-terminal-emulator.desktop" to "/home/centos/.config/xfce4/panel/launcher-9/13994644099.desktop": Error opening file '/home/centos/.config/xfce4/panel/launcher-9/13994644099.desktop': Permission denied
+
+(xfce4-panel:115): liblauncher-WARNING **: Failed to create duplicate of desktop file "/usr/share/applications/exo-file-manager.desktop" to "/home/centos/.config/xfce4/panel/launcher-10/139946440910.desktop": Error opening file '/home/centos/.config/xfce4/panel/launcher-10/139946440910.desktop': Permission denied
+
+(xfce4-panel:115): liblauncher-WARNING **: Failed to create duplicate of desktop file "/usr/share/applications/exo-web-browser.desktop" to "/home/centos/.config/xfce4/panel/launcher-11/139946440911.desktop": Error opening file '/home/centos/.config/xfce4/panel/launcher-11/139946440911.desktop': Permission denied
+
+(xfce4-panel:115): liblauncher-WARNING **: Failed to create duplicate of desktop file "/usr/share/applications/xfce4-appfinder.desktop" to "/home/centos/.config/xfce4/panel/launcher-12/139946440912.desktop": Error opening file '/home/centos/.config/xfce4/panel/launcher-12/139946440912.desktop': Permission denied
