@@ -1,0 +1,183 @@
+_XSERVTransmkdir: ERROR: euid != 0,directory /tmp/.X11-unix will not be created.
+
+Xvnc TigerVNC 1.1.0 - built Feb  4 2014 05:21:35
+Copyright (C) 1999-2011 TigerVNC Team and many others (see README.txt)
+See http://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 11300000, The X.Org Foundation
+
+Initializing built-in extension Generic Event Extension
+Initializing built-in extension SHAPE
+Initializing built-in extension MIT-SHM
+Initializing built-in extension XInputExtension
+Initializing built-in extension XTEST
+Initializing built-in extension BIG-REQUESTS
+Initializing built-in extension SYNC
+Initializing built-in extension XKEYBOARD
+Initializing built-in extension XC-MISC
+Initializing built-in extension XFIXES
+Initializing built-in extension RENDER
+Initializing built-in extension RANDR
+Initializing built-in extension DAMAGE
+Initializing built-in extension MIT-SCREEN-SAVER
+Initializing built-in extension DOUBLE-BUFFER
+Initializing built-in extension RECORD
+Initializing built-in extension DPMS
+Initializing built-in extension X-Resource
+Initializing built-in extension XVideo
+Initializing built-in extension XVideo-MotionCompensation
+Initializing built-in extension VNC
+Initializing built-in extension GLX
+
+Fri May  9 07:12:25 2014
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5900
+ vncext:      created VNC server for screen 0
+Unable to create /home/centos/.dbus/session-bus
+_IceTransmkdir: ERROR: euid != 0,directory /tmp/.ICE-unix will not be created.
+gnome-session[221]: devkit-power-gobject-WARNING: Couldn't connect to system bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+gnome-session[221]: WARNING: Could not connect to ConsoleKit: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+gnome-session[221]: WARNING: Could not connect to ConsoleKit: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+GNOME_KEYRING_SOCKET=/tmp/keyring-KjImV0/socket
+SSH_AUTH_SOCK=/tmp/keyring-KjImV0/socket.ssh
+GNOME_KEYRING_PID=249
+
+** (gnome-settings-daemon:248): WARNING **: Could not execute xrdb -nocpp -merge: Failed to execute child process "xrdb" (No such file or directory)
+
+** (gnome-settings-daemon:248): WARNING **: Could not execute xrdb -nocpp -merge: Failed to execute child process "xrdb" (No such file or directory)
+shm_open() failed: Permission denied
+
+** (gnome-settings-daemon:248): WARNING **: Connection failed, reconnecting...
+
+** (gnome-panel:261): CRITICAL **: panel_key_file_load_from_uri: assertion `uri != NULL' failed
+No such file or directory
+shm_open() failed: Permission denied
+Failed to play sound: Not available
+
+** (polkit-gnome-authentication-agent-1:269): WARNING **: Error connecting to bus: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+
+process 269: arguments to dbus_connection_get_data() were incorrect, assertion "connection != NULL" failed in file dbus-connection.c line 5804.
+This is normally a bug in some application using the D-Bus library.
+  D-Bus not built with -rdynamic so unable to print a backtrace
+
+(gnome-panel:261): GVFS-RemoteVolumeMonitor-WARNING **: invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.Private.GduVolumeMonitor: org.freedesktop.DBus.Error.Spawn.ChildSignaled: Process /usr/libexec/gvfs-gdu-volume-monitor received signal 6
+
+** (gnome-panel:261): WARNING **: panel-applet-frame.c:1288: failed to load applet OAFIID:GnoteApplet:
+(null)
+
+** (gnome-panel:261): WARNING **: panel-applet-frame.c:1288: failed to load applet OAFIID:GNOME_FastUserSwitchApplet:
+(null)
+gnome-session[221]: WARNING: Could not connect to ConsoleKit: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+gnome-session[221]: WARNING: Could not connect to ConsoleKit: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+
+(nautilus:263): GVFS-RemoteVolumeMonitor-WARNING **: invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.Private.GduVolumeMonitor: org.freedesktop.DBus.Error.Spawn.ChildSignaled: Process /usr/libexec/gvfs-gdu-volume-monitor received signal 6
+gnome-session[221]: WARNING: Could not connect to ConsoleKit: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+gnome-session[221]: WARNING: Could not connect to ConsoleKit: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+shm_open() failed: Permission denied
+
+** (gnome-settings-daemon:248): WARNING **: Connection failed, reconnecting...
+
+Fri May  9 07:12:38 2014
+ Connections: accepted: 127.0.0.1::36980
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+shm_open() failed: Permission denied
+
+** (gnome-settings-daemon:248): WARNING **: Connection failed, reconnecting...
+
+Fri May  9 07:12:40 2014
+ Connections: closed: 127.0.0.1::36980 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 3
+ SMsgWriter:    Tight rects 18, bytes 55815
+ SMsgWriter:    raw bytes equivalent 3192736, compression ratio 57.202114
+shm_open() failed: Permission denied
+
+** (gnome-settings-daemon:248): WARNING **: Connection failed, reconnecting...
+shm_open() failed: Permission denied
+
+** (gnome-settings-daemon:248): WARNING **: Connection failed, reconnecting...
+shm_open() failed: Permission denied
+
+** (gnome-settings-daemon:248): WARNING **: Connection failed, reconnecting...
+shm_open() failed: Permission denied
+
+** (gnome-settings-daemon:248): WARNING **: Connection failed, reconnecting...
+shm_open() failed: Permission denied
+
+** (gnome-settings-daemon:248): WARNING **: Connection failed, reconnecting...
+shm_open() failed: Permission denied
+
+** (gnome-settings-daemon:248): WARNING **: Connection failed, reconnecting...
+shm_open() failed: Permission denied
+
+** (gnome-settings-daemon:248): WARNING **: Connection failed, reconnecting...
+shm_open() failed: Permission denied
+
+** (gnome-settings-daemon:248): WARNING **: Connection failed, reconnecting...
+shm_open() failed: Permission denied
+
+** (gnome-settings-daemon:248): WARNING **: Connection failed, reconnecting...
+shm_open() failed: Permission denied
+
+** (gnome-settings-daemon:248): WARNING **: Connection failed, reconnecting...
+shm_open() failed: Permission denied
+
+** (gnome-settings-daemon:248): WARNING **: Connection failed, reconnecting...
+shm_open() failed: Permission denied
+
+** (gnome-settings-daemon:248): WARNING **: Connection failed, reconnecting...
+shm_open() failed: Permission denied
+
+** (gnome-settings-daemon:248): WARNING **: Connection failed, reconnecting...
+shm_open() failed: Permission denied
+
+** (gnome-settings-daemon:248): WARNING **: Connection failed, reconnecting...
+shm_open() failed: Permission denied
+
+** (gnome-settings-daemon:248): WARNING **: Connection failed, reconnecting...
+shm_open() failed: Permission denied
+
+** (gnome-settings-daemon:248): WARNING **: Connection failed, reconnecting...
+shm_open() failed: Permission denied
+
+** (gnome-settings-daemon:248): WARNING **: Connection failed, reconnecting...
+shm_open() failed: Permission denied
+
+** (gnome-settings-daemon:248): WARNING **: Connection failed, reconnecting...
+shm_open() failed: Permission denied
+
+** (gnome-settings-daemon:248): WARNING **: Connection failed, reconnecting...
+shm_open() failed: Permission denied
+
+** (gnome-settings-daemon:248): WARNING **: Connection failed, reconnecting...
+shm_open() failed: Permission denied
+
+** (gnome-settings-daemon:248): WARNING **: Connection failed, reconnecting...
+shm_open() failed: Permission denied
+
+** (gnome-settings-daemon:248): WARNING **: Connection failed, reconnecting...
+shm_open() failed: Permission denied
+
+** (gnome-settings-daemon:248): WARNING **: Connection failed, reconnecting...
+shm_open() failed: Permission denied
+
+** (gnome-settings-daemon:248): WARNING **: Connection failed, reconnecting...
+shm_open() failed: Permission denied
+
+** (gnome-settings-daemon:248): WARNING **: Connection failed, reconnecting...
+shm_open() failed: Permission denied
+
+** (gnome-settings-daemon:248): WARNING **: Connection failed, reconnecting...
+shm_open() failed: Permission denied
+
+** (gnome-settings-daemon:248): WARNING **: Connection failed, reconnecting...
+shm_open() failed: Permission denied
+
+** (gnome-settings-daemon:248): WARNING **: Connection failed, reconnecting...
+shm_open() failed: Permission denied
+
+** (gnome-settings-daemon:248): WARNING **: Connection failed, reconnecting...
+shm_open() failed: Permission denied
+
+** (gnome-settings-daemon:248): WARNING **: Connection failed, reconnecting...
